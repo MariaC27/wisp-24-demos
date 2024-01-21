@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Map } from 'immutable';
 import Note from './Note';
+import './App.css';
 class NoteBoard extends Component {
     constructor(props) {
     super(props);
@@ -61,7 +62,10 @@ class NoteBoard extends Component {
         <input type="text" value={this.state.newNoteText} onChange={this.newNoteTextFunction} />
        <button onClick={this.saveNoteInfo}>Save!</button>
 
-       {allNotes}
+        <div className="notes-flex">
+          {allNotes}
+        </div>
+       
 
      </div>
    );

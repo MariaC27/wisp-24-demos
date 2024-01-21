@@ -8,7 +8,7 @@ class Note extends Component {
  }
  render() {
    return (
-     <div className='note'>
+     <div className="note">
        <p>{this.props.name}</p>
        <p>{this.props.text}</p>
      </div>

@@ -41,3 +41,8 @@
   border: 3px solid black;
   margin: 10px;
 }
+
+.notes-flex{
+  display: flex;
+  justify-content: center;
+}
