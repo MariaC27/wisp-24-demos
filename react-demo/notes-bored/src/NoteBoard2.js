@@ -24,6 +24,11 @@ const NoteBoard2 = (props) => {
 
     }
 
+    // callback function
+    const deleteNote  = (id) => {
+        setNotes(notes.filter((i) => i.id !== id));
+    }
+
     
     const allNotes = notes.map((note) => {
         return (
@@ -32,6 +37,7 @@ const NoteBoard2 = (props) => {
                 text={note.text}
                 id={note.id}
                 key={note.id}
+                delete={deleteNote} // passing callback function!
             />
             );
         }
