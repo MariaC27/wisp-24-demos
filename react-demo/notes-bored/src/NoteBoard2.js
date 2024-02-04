@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 import Note2 from './Note2';
+
+// functional component version of NoteBoard
+
 const NoteBoard2 = (props) => {
     const [notes, setNotes] = useState([]);
     const [noteID, setNoteID] = useState(0);

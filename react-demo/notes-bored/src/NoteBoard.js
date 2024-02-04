@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Map } from 'immutable';
 import Note from './Note';
 import './App.css';
+
+// class component version of NoteBoard
 class NoteBoard extends Component {
     constructor(props) {
     super(props);

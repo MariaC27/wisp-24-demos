@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
+// class component version of Note
 class Note extends Component {
  constructor(props) {
    super(props);

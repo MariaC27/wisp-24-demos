@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-
+// functional component version of Note
 
 const Note2 = (props) => {
     // state variable boolean "editing"
